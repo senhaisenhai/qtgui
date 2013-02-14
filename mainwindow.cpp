@@ -12,3 +12,11 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    ui->lineEdit->setText("hahaha  you clicked me");
+    //QMessageBox::information(this, tr("Empty Search Field"),
+     //                        "this","button" );
+
+}
