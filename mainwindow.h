@@ -3,6 +3,11 @@
 
 #include <QMainWindow>
 #include <QMessageBox>
+#include <QXmlStreamReader>
+#include <QFile>
+#include <QDebug>
+#include <string.h>
+
 namespace Ui {
 class MainWindow;
 }
